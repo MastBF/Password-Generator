@@ -1,0 +1,9 @@
+{
+  "extension_name": { "message": "Password Generator" },
+  "extension_description": { "message": "Generate secure passwords quickly." },
+  "title": { "message": "Password Generator" },
+  "length_label": { "message": "Length:" },
+  "include_special": { "message": "Include Special Characters" },
+  "generate": { "message": "Generate" },
+  "copy": { "message": "Copy to Clipboard" }
+}

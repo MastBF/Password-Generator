@@ -1,0 +1,11 @@
+{
+  "name": "password-generator-extension",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "del": "^6.1.1"
+  }
+}

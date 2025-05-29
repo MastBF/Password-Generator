@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Password Generator",
+  "description": "A simple and secure password generator with customizable options and one-click copy to clipboard.",
+  "version": "1.0",
+  "default_locale": "en",
+  "icons": {
+    "128": "icons/locked128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/locked128.png"
+  },
+  "permissions": [
+    "clipboardWrite"
+  ]
+}
