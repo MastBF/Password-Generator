@@ -6,7 +6,7 @@ function clean() {
 }
 
 function copy() {
-  return src('public/**/*').pipe(dest('dist'));
+  return src('src/**/*').pipe(dest('dist'));
 }
 
 exports.default = series(clean, copy);
