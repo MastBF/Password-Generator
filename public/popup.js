@@ -61,6 +61,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     await updateLocaleUI(lang);
   });
 
+  lengthInput.addEventListener("input", () => {
+    let value = parseInt(lengthInput.value, 10) || 0;
+    if (value > 20) {
+      lengthInput.value = 20;
+    }
+  });
   generateBtn.onclick = () => {
     let length = parseInt(lengthInput.value, 10);
 
